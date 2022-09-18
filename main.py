@@ -1,6 +1,6 @@
 # This is a sample Python script.
 
-def classify_triangle_function(a, b, c):
+def classify_triangle(a, b, c):
     type = ""
     if a == b and a == c and b == c:
         type += "Given triangle is Equilateral triangle."
@@ -27,4 +27,4 @@ b = int(input())
 print("Please enter value of side c :-")
 c = int(input())
 
-print(classify_triangle_function(a, b, c))
+print(classify_triangle(a, b, c))
